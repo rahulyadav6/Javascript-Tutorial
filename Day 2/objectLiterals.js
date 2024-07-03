@@ -4,4 +4,35 @@ const student = {
     address: "Nepal",
     marks: 90
 };
-console.log(student);
+// console.log(student);
+
+const post = {
+    userName: "@rahulyadav",
+    content: "This is my first post",
+    likes: 150,
+    reposts: 5,
+    tags: ["@thakurKaushal"]
+}
+
+
+
+// objects of objects 
+
+
+
+const classInfo = {
+    Rahul:{
+        grade:"A+",
+        city:"Hakapara"
+    },
+    Kaushal:{
+        grade:"A",
+        city:"Siraha"
+    },
+    Bibek:{
+        grade:"O",
+        city:"Aaurhi"
+    }
+}
+
+console.log(classInfo);
