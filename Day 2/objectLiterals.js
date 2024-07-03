@@ -35,4 +35,30 @@ const classInfo = {
     }
 }
 
-console.log(classInfo);
+// console.log(classInfo);
+
+
+
+
+// Array of objects 
+
+const classInfo2 = [
+    {
+        name: "Rahul",
+        grade:"A+",
+        city:"Hakapara"
+    },
+    {
+        name: "Kaushal",
+        grade:"A",
+        city:"Siraha"
+    },
+    {
+        name: "Bibek",
+        grade:"O",
+        city:"Aaurhi"
+    }
+]
+
+
+
