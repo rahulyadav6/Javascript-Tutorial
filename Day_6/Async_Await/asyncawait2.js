@@ -1,4 +1,4 @@
-function raulsAsyncFunction(){
+function rahulsAsyncFunction(){
     return new Promise((res,rej)=>{
         setTimeout(()=>{
             res("hi there")
@@ -8,8 +8,9 @@ function raulsAsyncFunction(){
 }
 
 async function main(){
-    const value = await raulsAsyncFunction();
+    const value = await rahulsAsyncFunction();
     console.log(value);
+    console.log("hello ji");
 }
 main();
 console.log("hello ji");
