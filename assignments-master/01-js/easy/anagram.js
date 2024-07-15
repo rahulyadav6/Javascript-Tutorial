@@ -14,6 +14,17 @@ function isAnagram(str1, str2) {
   // str1.sort();
   // let sortedStr1 = str1.split('').sort().join('');
 
+
+
+
+// function sort(str){
+//   var array = str.split("");
+//   array = array.sort();
+//   var sortedString = array.join("");
+//   return sortedString;
+// }
+
+
   let sortedStr1 = str11.split('').sort((a, b) => a.localeCompare(b)).join('');
   let sortedStr2 = str22.split('').sort((a, b) => a.localeCompare(b)).join('');
 
